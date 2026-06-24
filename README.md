@@ -2,6 +2,10 @@
 
 A TinyTask-style mouse & keyboard macro recorder/player for Ubuntu.
 
+# Disclaimer
+
+This Project is still in developing
+
 ## Install dependencies
 
 ```bash
