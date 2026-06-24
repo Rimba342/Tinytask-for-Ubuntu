@@ -1,4 +1,4 @@
-# TinyTask for Wayland
+# TinyTask-like for Wayland
 
 This version works under Wayland sessions (the Ubuntu default since
 22.04). It talks to the kernel directly instead of going through the
@@ -91,6 +91,8 @@ Name=ydotoold
 Exec=ydotoold --socket-path=/home/YOUR_USERNAME/.ydotool_socket --socket-own=1000:1000
 X-GNOME-Autostart-enabled=true
 ```
+
+## Credits to real tinytask maker
 
 (Replace `YOUR_USERNAME` and the UID/GID `1000:1000` with the output of
 `id -u` / `id -g` if different.) This still needs root to create the
