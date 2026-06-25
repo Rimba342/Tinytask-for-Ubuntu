@@ -92,10 +92,10 @@ Exec=ydotoold --socket-path=/home/YOUR_USERNAME/.ydotool_socket --socket-own=100
 X-GNOME-Autostart-enabled=true
 ```
 
-## Credits to real tinytask maker
-
 (Replace `YOUR_USERNAME` and the UID/GID `1000:1000` with the output of
 `id -u` / `id -g` if different.) This still needs root to create the
 uinput device, so you may be prompted, or you can set it up as a proper
 systemd service instead — see the ydotool project's README for the
 systemd unit file approach if you want it fully passwordless.
+
+## Credits to real tinytask maker
